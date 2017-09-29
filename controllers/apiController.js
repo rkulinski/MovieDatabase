@@ -4,7 +4,6 @@ var Movies = require('../models/movieModel'),
     fetch = require('node-fetch');
 
 module.exports = app => {
-
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
 
