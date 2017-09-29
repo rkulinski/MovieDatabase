@@ -7,7 +7,7 @@ module.exports = app => {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
 
-    app.post('/api/movies', (req, res)=> {
+    app.post('/api/movies', (req, res) => {
         let movie_title = req.body.title;
 
         fetch(`http://www.omdbapi.com/?apikey=PlsBanMe&t=${movie_title}`)
