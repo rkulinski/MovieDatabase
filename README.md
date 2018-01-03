@@ -19,6 +19,3 @@ body
 
 GET /api/comments - displays all comments
 	/api/comments?movie_id=[movie id] - displays comments on selected movie
-
-	
-I've choosen mongodb because it's working really well with JavaScript.
